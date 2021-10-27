@@ -10,7 +10,7 @@ export const TRACKS = gql`
       id
       title
       thumbnail
-      length
+      durationInSecond
       modulesCount
       author {
         id

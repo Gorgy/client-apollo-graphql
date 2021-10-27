@@ -14,13 +14,13 @@ export const GET_TRACK = gql`
       description
       id
       thumbnail
-      length
+      durationInSecond
       modulesCount
       numberOfViews
       modules {
         id
         title
-        length
+        durationInSecond
       }
     }
   }
